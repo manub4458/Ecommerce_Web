@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -30,4 +30,28 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+} */
+li{
+  list-style: none;
+  
+}
+.hero_height{
+  height: calc(100vh - 5vh );
+}
+
+.card {
+  width: fit-content;
+  height: fit-content;
+  background: #f6f7f9;
+  color: rgb(22, 21, 21);
+
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+}
+.card2 {
+  width: fit-content;
+  height: fit-content;
+  background: #f2f2f3;
+  color: #333333;
+
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
 }
