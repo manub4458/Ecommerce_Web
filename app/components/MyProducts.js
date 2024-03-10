@@ -1,5 +1,6 @@
 import React from 'react'
 import Product_card from './Product_card'
+import Link from 'next/link'
 
 const MyProducts = () => {
     return (
@@ -13,7 +14,7 @@ const MyProducts = () => {
 
                 <div className='space-y-8'>
 
-                    <div className='flex justify-center gap-x-8 my-4'>
+                    <div className='flex justify-center gap-x-8 my-4 flex-wrap'>
 
                         <Product_card
 
@@ -66,8 +67,8 @@ const MyProducts = () => {
 
                     </div>
 
-                    <div className='flex justify-center gap-x-8 my-4'>
-
+                    <div className='flex justify-center gap-x-8 my-4 flex-wrap'>
+<Link href='/Product'>
                         <Product_card
 
                             image="/product3.avif"
@@ -77,6 +78,7 @@ const MyProducts = () => {
                             original_price="999"
                             discount="45"
                         />
+                        </Link>
 
                         <Product_card
 

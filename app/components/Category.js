@@ -13,7 +13,7 @@ const Category = () => {
                     </h2>
                 </div>
 
-                <div className='flex justify-center gap-x-8 my-4'>
+                <div className='flex justify-center gap-x-8 my-4 flex-wrap'>
                     <div>
                         <Category_Cards
                             image='/tshirt.avif'

@@ -31,6 +31,11 @@ body {
     text-wrap: balance;
   }
 } */
+
+html,
+body{
+  overflow-x: hidden;
+}
 li{
   list-style: none;
   
@@ -54,4 +59,17 @@ li{
   color: #333333;
 
   /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+}
+.card, .card2, .card3 {
+ 
+  transition: transform 0.3s ease-in-out;
+}
+.card:hover, .card2:hover{
+  transform: scale(1.1);
+}
+.card3{
+  height: 100%;
+}
+.card3 :hover{
+  transform: scale(1.03);
 }

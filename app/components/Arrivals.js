@@ -5,7 +5,7 @@ const Arrivals = () => {
         <>
             <div>
 
-                <div className='flex justify-center gap-x-28 my-20'>
+                <div className='flex justify-center gap-x-28 my-20 flex-wrap space-y-4'>
 
                     <div className='bg-[#a547a2] h-fit w-max gap-x-8 px-14 py-14 flex justify-around rounded-lg'>
 

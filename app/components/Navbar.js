@@ -1,24 +1,32 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Navbar = () => {
     return (
         <>
-            <div className='bg-[#464c5c]  py-2'>
+            <div className='bg-[#464c5c]  '>
 
 
                 <div className='flex justify-around  items-center justify-center'>
 
                     <div>
-                        <h2 className=' font-medium text-2xl text-white'>
-                            Fashion Store
-                        </h2>
+                        <img 
+                        
+                        src='/logo2.png'
+                        alt='Logo'
+                        width={45}
+                        height={40}
+                        
+                        />
                     </div>
 
                     <div className='flex gap-x-8  text-yellow-50'>
 
-                        <li>
+                    <Link href='/'>
+                    <li>
                             Home
                         </li>
+                    </Link>
 
                         <li>
                             Shop
