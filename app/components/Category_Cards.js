@@ -13,7 +13,7 @@ const Category_Cards = ({ category, image }) => {
                         className='w-[260px]  rounded-lg'
                     />
                     <div className='my-1 space-y-1'>
-                        <p className='text-[20px] text-center font-medium '>
+                        <p className='text-[20px] text-center font-medium  lora'>
                             {category}
                         </p>
                         {/* <p className='text-sm text-center'>

@@ -18,7 +18,7 @@ const Product_card = ({ image, product_name, product_description, price, origina
                         className='w-[260px]  rounded-lg'
                     />
                     <div className='my-2 space-y-1'>
-                        <p className='text-[16px] text-center font-semibold'>
+                        <p className='text-[16px] text-center font-semibold lora'>
                             {product_name}
                         </p>
                         <p className='text-sm text-center'>

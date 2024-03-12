@@ -15,13 +15,13 @@ const Optional_navbar = () => {
         
         src='/logo3.png'
         alt='Logo'
-        width={85}
+        width={100}
         height={40}
         
         />
     </div>
 
-    <div className='flex gap-x-8  '>
+    <div className='flex gap-x-8 poppins '>
 
        <Link href='/' >
        <li className='font-semibold'>
